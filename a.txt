@@ -1,1 +1,7 @@
-qiye
+class a():
+    def set(self,value)
+        if value < -273
+            raise ValueError("-1")
+        self._a = value
+a = a()
+a.set(-555)

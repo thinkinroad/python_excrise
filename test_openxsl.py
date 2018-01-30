@@ -3,6 +3,7 @@ def get_url():
     url_=[]
     workbook_ = load_workbook(filename='1.xlsx')
     sheetnames =workbook_.get_sheet_names()
+    print(sheetnames)
     sheet = workbook_.get_sheet_by_name(sheetnames[0])
 
     for rowNum in range(1,24):
