@@ -32,6 +32,8 @@ pie.title = "Pies sold by category"
 slice = DataPoint(idx=0, explosion=20)
 pie.series[0].data_points = [slice]
 
+print(pie.series[0].data_points)
+
 ws.add_chart(pie, "D1")
 
 
